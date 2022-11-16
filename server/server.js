@@ -10,7 +10,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:false}))
 
 app.get('/api', (req, res) => {
-    res.json({"users":["userOne","userTwo","userThree"]})
+    res.json({"names":["Daniel","Theodore","Jackson"]})
 })
 
 app.listen(PORT, () => {
